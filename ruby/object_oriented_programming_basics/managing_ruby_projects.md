@@ -81,7 +81,7 @@ The important part here is *relative to the directory containing the requiring f
 
 `require` is trickier. Let's grab *some* of the docs here:
 
-> If the feature is an absolute path (e.g.starts with `'/'`), the feature will be loaded directly using the absolute path. If the feature is an explicit relative path (e.g. starts with `'./'` or `'../'`), the feature will be loaded using the relative path from the current directory. Otherwise, the feature will be searched for in the library directories listed in the `$LOAD_PATH`.
+> If the feature is an absolute path (e.g. starts with `'/'`), the feature will be loaded directly using the absolute path. If the feature is an explicit relative path (e.g. starts with `'./'` or `'../'`), the feature will be loaded using the relative path from the current directory. Otherwise, the feature will be searched for in the library directories listed in the `$LOAD_PATH`.
 
 The absolute path bit seems self-explanatory. When you use a relative path, the difference between using `require` and `require_relative` is that `require` resolves it from the point of view of the directory you are running your code from. Let's change our example, again imagining your terminal is currently in the root of the project where `main.rb` is:
 
