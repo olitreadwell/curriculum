@@ -12,11 +12,11 @@ This section contains a general overview of topics that you will learn in this l
 
 ### What are model tests?
 
-A model test is a unit test in the context of Ruby on Rails. When testing our models we usually want to focus on testing the business logic. Essentially what goes on behind each model that enables the user experience to work correctly. This could mean ensuring promotion tickets prices are correct, only correct form data is accepted, custom user verification etc. It's important to note that each model should have it's own file in the `spec/models` file. This is helpful for keeping your model tests organized and readable.
+A model test is a unit test in the context of Ruby on Rails. When testing our models we usually want to focus on testing the business logic. Essentially what goes on behind each model that enables the user experience to work correctly. This could mean ensuring promotion tickets prices are correct, only correct form data is accepted, custom user verification etc. It's important to note that each model should have its own file in the `spec/models` file. This is helpful for keeping your model tests organized and readable.
 
 ### Setting the test
 
-The first tool that we are going to go over for setting up the data is [factory bot](https://github.com/thoughtbot/factory_bot). Factory bot is a gem that you can use to set up test data and create necessary data for your tests. Adding Factory bot is similar to adding other testing gems. Add the following line to the to the following section in your Gemfile.
+The first tool that we are going to go over for setting up the data is [factory bot](https://github.com/thoughtbot/factory_bot). Factory bot is a gem that you can use to set up test data and create necessary data for your tests. Adding Factory bot is similar to adding other testing gems. Add the following line to the following section in your Gemfile.
 
 ```ruby
 group :development, :test do
@@ -26,7 +26,7 @@ group :development, :test do
 end
 ```
 
-Then in your terminal enter `bundle install` to the terminal where it will install the gem. Now we need to move into setting up our test configuration to utilize Factory bot. First were going to navigate to `spec/support/factory_bot.rb` and add the following configuration.
+Then in your terminal enter `bundle install` to the terminal where it will install the gem. Now we need to move into setting up our test configuration to utilize Factory bot. First we're going to navigate to `spec/support/factory_bot.rb` and add the following configuration.
 
 ```ruby
 RSpec.configure do |config|
@@ -36,7 +36,7 @@ end
 
 Make sure to require this file in `rails_helper.rb`. While you can require the file by adding `require support/factory_bot` to the top of the file. Rails also provides this in the commented out line `Dir[Rails.root.join("spec/support/**/*.rb")].each { |f| require f }` which enables you to load all of the support files when booting up. This is useful for not having to manually add all of the support files and avoids issues if you forget to add a file for example.
 
-The last thing you might be wondering is how the test database clears itself in between it's tests. Rail's does this automatically for you, however if Rail's is not doing it for you make sure your following the instructions in the rails_helper.rb file and make sure to ask in the [Discord](https://discord.com/channels/505093832157691914/690591236922409012) first! If you are interested, you can learn more about database cleaning in the additional resources.
+The last thing you might be wondering is how the test database clears itself in between its tests. Rails does this automatically for you, however if Rails is not doing it for you make sure you're following the instructions in the rails_helper.rb file and make sure to ask in the [Discord](https://discord.com/channels/505093832157691914/690591236922409012) first! If you are interested, you can learn more about database cleaning in the additional resources.
 
 ### Creating a factory
 

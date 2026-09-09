@@ -1,6 +1,6 @@
 ### Guide: Dual-boot Ubuntu and Windows
 
-Dual-booting provides two operating systems on your computer that you can switch between with a simple reboot. One OS will not modify the other unless you explicitly tell it to do so. There are many Ubuntu flavors out there and while our curriculum supports official flavors of Ubuntu, this guide will focus on installing the official Ubuntu Desktop running on GNOME. If you would like to install a different flavor, instructions this guide will still work. Just pay close attention to the installer's instructions on your flavor.
+Dual-booting provides two operating systems on your computer that you can switch between with a simple reboot. One OS will not modify the other unless you explicitly tell it to do so. There are many Ubuntu flavors out there and while our curriculum supports official flavors of Ubuntu, this guide will focus on installing the official Ubuntu Desktop running on GNOME. If you would like to install a different flavor, instructions in this guide will still work. Just pay close attention to the installer's instructions on your flavor.
 
 Before you continue, be sure to back up any important data and to have a way to ask for help. If you get lost, scared, or stuck, we're here to help in the [Odin Tech Support chat room](https://discordapp.com/channels/505093832157691914/514204667245363200). Come say "Hi"!
 

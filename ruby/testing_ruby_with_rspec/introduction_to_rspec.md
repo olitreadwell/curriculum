@@ -246,5 +246,5 @@ This section contains helpful links to related content. It isn't required, so co
 - For a more thorough overview of RSpec, read through the [RSpec section of Ruby Monsta’s "Testing for Beginners" book](http://testing-for-beginners.rubymonstas.org/rspec.html).
 - Briefly look over [RSpec's other matchers](http://rspec.info/features/3-12/rspec-expectations/built-in-matchers/) if you haven't done so already.
 - Briefly look over [BetterSpecs' recommended RSpec styling and syntax](http://www.betterspecs.org/) and read through the first six guidelines.
-- This [RSpec Cheat Sheet](https://devhints.io/rspec) should help you avoid Googling every new bit of syntax.
+- This [RSpec Cheat Sheet](https://www.rubypigeon.com/posts/rspec-expectations-cheat-sheet/) should help you avoid Googling every new bit of syntax.
 - [Getting Started with RSpec Part 1](https://mindovermiles262.medium.com/getting-started-with-rspec-part-1-9418909f5e53): Solidify these concepts with a shameless plug from another Odin Project contributor.
