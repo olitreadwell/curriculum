@@ -24,6 +24,7 @@
 
 ## Gap ledger (dedupe — READ FIRST, never re-pick)
 - `2026-08-04` self-found docs-grounded fix — pr-opened (fork PR #1).
+- `2026-09-09` self-found trivial-fix pass (typos + dead links) — pr-opened (fork PR #30, branch fix/typos-and-dead-links). 10 fixes / 5 files: 2 dead links replaced (devhints.io/rspec -> rubypigeon rspec cheat-sheet; blog.techatpower.com guard-clause post -> rubystyle.guide guard-clauses) + 8 grammar/typo fixes (its/it's, Rails/Rail's, we're/were, to the following, how you can leverage). Dropped 2 RSpec files with 4 more verified dead-link fixes because they already fail markdownlint on originals (139 pre-existing errors) and CI lints changed files. Rejected false positives: codepen.io 403 (bot-block), support.google.com/marketplace.visualstudio.com 404s (200 with browser UA), web.archive.org 200, transient ERR. Fork CI green (codespell, markdownlint, triage).
 - `2026-08-24` issue #31330 (stale "Additional Resources section below" sentence) — pr-opened (fork PR #16), closed 2026-09-09 (lesson file removed upstream; no longer relevant).
 
 ## Mined gaps (discovered, not yet attempted)
