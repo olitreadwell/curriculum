@@ -231,7 +231,7 @@ It's time to put your newfound knowledge to good use. Let's break our `Calculato
 
 This section contains helpful links to related content. It isn't required, so consider it supplemental.
 
-- This Youtube video gives an excellent [overview of the fundamentals of RSpec](https://www.youtube.com/watch?v=K6RPMhcRICE), and gives a brief overview of some concepts that will be mentioned in the next lesson.
+- This YouTube video gives an excellent [overview of the fundamentals of RSpec](https://www.youtube.com/watch?v=K6RPMhcRICE), and gives a brief overview of some concepts that will be mentioned in the next lesson.
 - For a more thorough overview of RSpec, read through the [RSpec section of Ruby Monsta’s "Testing for Beginners" book](http://testing-for-beginners.rubymonstas.org/rspec.html).
 - Briefly look over [RSpec's other matchers](http://rspec.info/features/3-12/rspec-expectations/built-in-matchers/) if you haven't done so already.
 - Briefly look over [BetterSpecs' recommended RSpec styling and syntax](http://www.betterspecs.org/) and read through the first six guidelines.

@@ -123,7 +123,7 @@ A good note to keep in mind when faced with a `TypeError` is to consider the dat
 At this point, you might be wondering how we can resolve these errors.
 
 1. We can start by understanding that the error message is your friend - not your enemy. Error messages tell you *exactly* what is wrong with your code, and which lines to examine to find the source of the error. Without error messages it would be a *nightmare* to debug our code - because it would still not work, we just wouldn't know why!
-1. Now, its time to Google the error! Chances are, you can find a fix or explanation on StackOverflow or in the documentation. If nothing else, you will receive more clarity as to why you are receiving this error.
+1. Now, it's time to Google the error! Chances are, you can find a fix or explanation on StackOverflow or in the documentation. If nothing else, you will receive more clarity as to why you are receiving this error.
 1. Use the debugger! As previously mentioned, the debugger is great for more involved troubleshooting, and is a critical tool for a developer. You can set breakpoints, view the value of any given variable at any point in your application’s execution, step through code line by line, and more! It is an extremely valuable tool and every programmer should know how to use it.
 1. Make use of the console! `console.log()` is a popular choice for quick debugging. For more involved troubleshooting, using the debugger might be more appropriate, but using `console.log()` is great for getting immediate feedback without needing to step through your functions. There are also other useful methods such as `console.table()`, `console.trace()`, and more!
 
