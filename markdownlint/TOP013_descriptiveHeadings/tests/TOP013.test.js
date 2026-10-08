@@ -30,4 +30,11 @@ describe("TOP013", () => {
       `${errorPath}:35 error ${expected.name} ${expected.description} ["Important note" is not sufficiently descriptive by itself. Use a more descriptive heading that briefly but clearly summarizes the content of the section.] [Context: "  #### Important note"]`,
     ]);
   });
+
+  it("Does not flag any errors if no rule violations", async () => {
+    const filePath = "./valid.md";
+    const lintErrors = await getLintErrors(filePath);
+
+    assert.deepEqual(lintErrors, []);
+  });
 });
