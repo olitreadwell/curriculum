@@ -15,7 +15,7 @@ In this project, you'll build a form the old fashioned way and then the Rails wa
 You'll get good at setting up apps quickly in the coming lessons by using more or less this same series of steps (though we'll help you less and less each time):
 
 1. Build a new rails app (called "re-former").
-1. Create a new Github repo and connect the remote to your local git repo. Check in and commit the initial stuff.
+1. Create a new GitHub repo and connect the remote to your local git repo. Check in and commit the initial stuff.
 1. Modify your README file to say something you'll remember later, like "This is part of the Forms Project in The Odin Project's Ruby on Rails Curriculum. Find it at [https://www.theodinproject.com](https://www.theodinproject.com)"
 1. Create and migrate a User model with `:username`, `:email` and `:password`.
 1. Add validations for presence to each field in the model.

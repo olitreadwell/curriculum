@@ -123,7 +123,7 @@ Like all of the projects you've done so far we need to use Git for our version c
 
 1. #### Initialize on GitHub, add the remote, and push
 
-   Make a repo on Github and make sure you **do not** initialize the repository with a README because Rails has created one already. Add this repo as a remote and push your repo to GitHub just like you normally do.
+   Make a repo on GitHub and make sure you **do not** initialize the repository with a README because Rails has created one already. Add this repo as a remote and push your repo to GitHub just like you normally do.
 
    REMINDER: Do not enter the `<` or `>` symbols below. Replace those symbols and everything between them with the URL that you copied from GitHub.
 
