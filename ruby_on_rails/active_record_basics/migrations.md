@@ -15,7 +15,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### What are migrations?
 
-A Rails migration is a script that sets up or modifies a database's schema in a reversible and re-appliable way. The schema, as you learned in the Databases course, is the structure of your database. Creating and dropping tables, adding and removing columns, as well as certain other modifications, are changes to the schema, whereas adding and removing rows are not. Multiple migration files can be run in sequence like a script. Migrations use schema-altering SQL commands under the hood, similar to how the Model makes SQL queries for you.
+A Rails migration is a script that sets up or modifies a database's schema in a reversible and re-applicable way. The schema, as you learned in the Databases course, is the structure of your database. Creating and dropping tables, adding and removing columns, as well as certain other modifications, are changes to the schema, whereas adding and removing rows are not. Multiple migration files can be run in sequence like a script. Migrations use schema-altering SQL commands under the hood, similar to how the Model makes SQL queries for you.
 
 ### When migrations are needed
 

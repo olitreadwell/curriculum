@@ -93,7 +93,7 @@ There is no more code to run and the function returns. Since Express has been to
 
 When you run your server with `node app.js`, any changes to any JavaScript and JSON files in your project directory won't be reflected automatically unless you manually interrupt and rerun `node app.js`. To avoid this manual process, you can use [Node's watch mode](https://nodejs.org/docs/latest-v20.x/api/cli.html#--watch) by adding the `--watch` flag, e.g. `node --watch app.js`. Node will watch `app.js` for changes, as well as any of the files it ultimately depends on. When it detects a change, it will automatically restart the server just like with Webpack and Vite's dev servers.
 
-You may also come across [Nodemon](https://www.npmjs.com/package//nodemon), a highly configurable package that can also watch for changes and restart your server for you. Node didn't always have a stable built-in watch mode, so you're likely to see Nodemon around the place. Our recommendation would be to stick with Node's built in watch mode via the `--watch` flag, as this would be by far the simplest method.
+You may also come across [Nodemon](https://www.npmjs.com/package/nodemon), a highly configurable package that can also watch for changes and restart your server for you. Node didn't always have a stable built-in watch mode, so you're likely to see Nodemon around the place. Our recommendation would be to stick with Node's built in watch mode via the `--watch` flag, as this would be by far the simplest method.
 
 ### Assignment
 
