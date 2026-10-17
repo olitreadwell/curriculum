@@ -47,7 +47,7 @@ On Windows there are three primary ways to open WSL2.
 
 - If you set Windows Terminal to open a Ubuntu terminal by default you can start a new WSL2 session by opening the terminal app.
 - You can open Windows Terminal, click the dropdown next to the new tab button (at the top of the windows), and select Ubuntu.
-- If you search for Ubuntu in the application search bar you should see a application titled Ubuntu; open it to start a new terminal session.
+- If you search for Ubuntu in the application search bar you should see an application titled Ubuntu; open it to start a new terminal session.
 
 All options below are valid selections that will open the same program:
 

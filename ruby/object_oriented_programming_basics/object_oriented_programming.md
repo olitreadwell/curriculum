@@ -4,7 +4,7 @@ You've got the building blocks of Ruby out of the way, great! Now it's time to g
 
 The concepts you'll learn here are often less specific to Ruby itself and more widely applicable to any object-oriented language. That's because the fundamental concepts are just that... fundamental. Don't repeat yourself. Modularize your code. Have your classes and methods only do one thing. Show as little of your interfaces to the world as you can. Don't make methods or classes heavily dependent on each other. These will take some time and practice to implement effectively, but you'll already be taking a big step towards creating high quality code just by finishing up this section.
 
-There are two projects in this Object Oriented Programming Basics section, but this does not mean that you will only use OOP for these two projects. Ruby is a object-oriented language, so it is important to use OOP for all of the remaining projects.
+There are two projects in this Object Oriented Programming Basics section, but this does not mean that you will only use OOP for these two projects. Ruby is an object-oriented language, so it is important to use OOP for all of the remaining projects.
 
 There is a lot of reading in this lesson, so you are encouraged to code along with each example. If you find an example that does not make sense, ask for help in the `#ruby-help` channel in [our Discord server](https://discord.gg/fbFCkYabZB). To get the most out of each example, try to apply what you learned by adding similar functionality on your own.
 
