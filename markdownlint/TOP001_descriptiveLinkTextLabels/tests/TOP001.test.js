@@ -53,4 +53,11 @@ describe("TOP001", () => {
       `${errorPath}:32 error ${expected.name} ${expected.description} ["a playlist" is not sufficiently descriptive by itself. Use a more descriptive label that clearly conveys the purpose or content of the link.] [Context: "[a playlist](someURL)"]`,
     ]);
   });
+
+  it("Does not flag any errors if no rule violations", async () => {
+    const filePath = "./valid.md";
+    const lintErrors = await getLintErrors(filePath);
+
+    assert.deepEqual(lintErrors, []);
+  });
 });
