@@ -40,7 +40,7 @@ To name a few reasons to learn React:
 
 1. If you haven't already, browse through the [React Website](https://react.dev/). Don't go too in-depth or dive into documentation, but do read the introduction/homepage to get an idea of how React works.
 
-1. Glance at this article which outlines [the history of React](https://blog.risingstack.com/the-history-of-react-js-on-a-timeline/).
+1. Glance at this article which outlines [the history of React](https://web.archive.org/web/20210109191805/https://blog.risingstack.com/the-history-of-react-js-on-a-timeline/).
 
 1. Read this [FreeCodeCamp article discussing the differences between a JavaScript library and a framework](https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/).
 

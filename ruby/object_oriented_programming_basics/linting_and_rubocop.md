@@ -308,7 +308,7 @@ Quickfixes are pretty much `rubocop -a` but confined to a particular line. Take 
 
 ### To write good code you need to write a lot of bad code first
 
-You might be wondering why when you were installing Ruby you weren't told about Rubocop. If writing clean code is the goal, why not start out with a formatter and a linter? Why not go into a style guide right off the bat?
+You might be wondering why when you were installing Ruby you weren't told about RuboCop. If writing clean code is the goal, why not start out with a formatter and a linter? Why not go into a style guide right off the bat?
 
 The reasons for this are many, but some of them would be:
 
@@ -338,4 +338,4 @@ This section contains helpful links to related content. It isn't required, so co
 
 - If you're curious about RuboCop's history and how it works [Bozhidar Batsov's All About RuboCop talk](https://www.youtube.com/watch?v=nrHjVCuVsGA) should be a satisfying listen.
 - [Vincius Stock's Improving the development experience with language servers talk](https://www.youtube.com/watch?v=kEfXPTm1aCI) is great for people who want to know more about Language Server Protocol, specifically the Ruby one.
-- [Honeybadger's article about Rubocop](https://www.honeybadger.io/blog/linting-formatting-ruby/) might give you a different perspective and introduce some features not covered in the lesson.
+- [Honeybadger's article about RuboCop](https://www.honeybadger.io/blog/linting-formatting-ruby/) might give you a different perspective and introduce some features not covered in the lesson.
