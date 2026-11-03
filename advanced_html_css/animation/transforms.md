@@ -145,7 +145,7 @@ Now that you have a grasp of 2D transforms, we will learn how to chain them. Cha
 }
 ```
 
-There are two boxes located at the same position. We chained `rotate` and `translate` function values to both boxes, but in different orders. Make a guess on what happens to each box, then click the "Result" link in the Codepen below to see if you were right.
+There are two boxes located at the same position. We chained `rotate` and `translate` function values to both boxes, but in different orders. Make a guess on what happens to each box, then click the "Result" link in the CodePen below to see if you were right.
 
 <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="css" data-slug-hash="XWeJWWr" data-editable="true" data-user="TheOdinProjectExamples" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
 

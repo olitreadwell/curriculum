@@ -4,7 +4,7 @@ You've come a long way, congratulations! At this point, you should feel comforta
 
 You'll be building a clone of a social media site, such as Facebook, X, Myspace, or Threads. As with our previous lessons, how much effort you want to put into the styling and front end is up to you. The important stuff is the data and backend. You'll put together the core features of the platform like users, profiles, posts, following, and "liking".
 
-You'll also implement some form of authentication. Ideally, you'll want to use OmniAuth to support authenticating via the social media site you're cloning, but some sites (such as Facebook), have recently made this process impossible. If this is the case for your site, you can use Devise to support authenticating via username and password (using Devise) or via Github with `omniauth-github`.
+You'll also implement some form of authentication. Ideally, you'll want to use OmniAuth to support authenticating via the social media site you're cloning, but some sites (such as Facebook), have recently made this process impossible. If this is the case for your site, you can use Devise to support authenticating via username and password (using Devise) or via GitHub with `omniauth-github`.
 
 There will probably be features you haven't been exposed to -- for instance chat, realtime updates of the newsfeed, and realtime notifications. You won't be responsible for creating those unless you'd like to jump ahead and give it a shot.
 

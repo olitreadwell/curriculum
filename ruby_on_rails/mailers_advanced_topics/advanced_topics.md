@@ -180,7 +180,7 @@ module Lessons
     end
 
     def destroy
-      # logic to remove an image image from a course
+      # logic to remove an image from a course
     end
   end
 end

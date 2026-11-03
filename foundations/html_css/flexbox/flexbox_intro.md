@@ -42,7 +42,7 @@ We've embedded a lot of interactive examples in these lessons. Take your time to
 
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-We'll get into exactly what's going on here soon enough. But for now, let's uncomment the two flex related CSS declarations in the above Codepen by removing the `/*` and `*/` tags surrounding them, then check out the result.
+We'll get into exactly what's going on here soon enough. But for now, let's uncomment the two flex related CSS declarations in the above CodePen by removing the `/*` and `*/` tags surrounding them, then check out the result.
 
 <div class="lesson-note" markdown="1">
 
